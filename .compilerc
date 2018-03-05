@@ -3,18 +3,22 @@
     "development": {
       "application/javascript": {
         "presets": [
-          ["env", { "targets": { "electron": "1.6.0" } }],
-          "react"
+          ["env", { "targets": { "electron": "1.8.2" } }],
+          "react",
+          "es2015",
+          "stage-2"
         ],
-        "plugins": ["transform-async-to-generator", "transform-es2015-classes", "react-hot-loader/babel"],
+        "plugins": ["transform-runtime", "transform-async-to-generator", "transform-es2015-classes", "react-hot-loader/babel"],
         "sourceMaps": "inline"
       }
     },
     "production": {
       "application/javascript": {
         "presets": [
-          ["env", { "targets": { "electron": "1.6.0" } }],
-          "react"
+          ["env", { "targets": { "electron": "1.8.2" } }],
+          "react",
+          "es2015",
+          "stage-2"
         ],
         "plugins": ["transform-async-to-generator", "transform-es2015-classes"],
         "sourceMaps": "none"

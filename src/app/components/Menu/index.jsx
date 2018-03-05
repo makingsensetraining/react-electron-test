@@ -8,6 +8,7 @@ import { composePure, withProps } from '../../utils/composepure';
 
 const options = [
   { label: 'Home', path: '/' },
+  { label: 'Upload', path: '/upload' },
 ];
 
 const GenerateMenu = ({ component, location, openNotification, closeNotification }) => (
