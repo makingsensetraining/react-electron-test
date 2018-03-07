@@ -26,6 +26,9 @@
           "flatpak"
         ]
       },
+      "electronInstallerFlatpak": {
+        "runtimeVersion": "1.6"
+      },
       "electronPackagerConfig": {
         "packageManager": "yarn",
         "ignore": [
